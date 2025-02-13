@@ -1,0 +1,21 @@
+graph TD
+    A[User Interface] --> B[Core Language Engine]
+    B --> C[Conversation Module]
+    B --> D[Grammar Module]
+    B --> E[Vocabulary Module]
+    B --> F[Exercise Generator]
+    
+    C --> G[Speech Recognition]
+    C --> H[Natural Dialogue]
+    
+    D --> I[Grammar Rules DB]
+    D --> J[Error Detection]
+    
+    E --> K[Spaced Repetition]
+    E --> L[Context Examples]
+    
+    F --> M[Difficulty Adaption]
+    F --> N[Progress Tracking]
+    
+    O[User Profile] --> B
+    O --> P[Learning Analytics]
